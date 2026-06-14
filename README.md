@@ -157,13 +157,13 @@ nikhil_dbt_project/
 
 The project uses separate Development and Production catalogs with Bronze, Silver, and Gold schemas following the Medallion Architecture.
 
-![Databricks Catalog](screenshots/databricks-catalog.png)
+![Databricks Catalog](screenshots/Databricks-catalog.png)
 
 ### dbt Project Structure
 
 The dbt project contains layered models, tests, snapshots, seeds, and reusable macros.
 
-![dbt Project Structure](screenshots/models.png)
+![dbt Project Structure](screenshots/Models.png)
 
 ---
 
