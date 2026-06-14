@@ -1,0 +1,64 @@
+version: 2
+
+models:
+   
+
+    - name: bronze_sales
+      columns:
+        - name: sales_id
+          data_tests:
+            - unique
+            - not_null
+
+
+    - name: bronze_customer
+      config:
+        materialized: view
+      columns:
+        - name: customer_sk
+          data_tests:
+            - not_null
+            - unique
+
+    - name: bronze_date
+      config:
+        materialized: view
+      columns:
+        - name: date_sk
+          data_tests:
+            - unique
+            - not_null
+
+   
+    
+    - name: bronze_returns
+      columns:
+        - name: sales_id
+          data_tests:
+            - unique
+            - not_null
+
+
+    - name: bronze_store
+      columns:
+        - name: store_sk
+          data_tests:
+            - unique
+            - not_null
+            - generic_non_negative
+        - name: store_name  
+          data_tests:
+          - accepted_values:
+                arguments:
+                    values: ['MegaMart Brooklyn','MegaMart Manhattan','MegaMart Austin','MegaMart San Jose','MegaMart Toronto']
+                
+
+    - name: bronze_product
+      columns:
+        - name: product_sk
+          data_tests:
+            - not_null
+            - unique                
+            - generic_non_negative
+
+            

@@ -1,0 +1,55 @@
+[0m13:43:02.096965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ACF92A6630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ACF8BF21E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ACF8BF39E0>]}
+
+
+============================== 13:43:02.215431 | 9e853a6c-7d08-45e5-b70e-f39f8ea90010 ==============================
+[0m13:43:02.215431 [info ] [MainThread]: Running with dbt=1.11.8
+[0m13:43:02.221194 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\nikhi\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:43:40.760447 [debug] [MainThread]: Starter project path: C:\Users\nikhi\Desktop\dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m13:43:40.795332 [info ] [MainThread]: 
+Your new dbt project "nikhil_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:43:40.795332 [info ] [MainThread]: Setting up your profile.
+[0m13:43:51.217704 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m13:43:51.217704 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m13:43:51.217704 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m13:47:03.291920 [info ] [MainThread]: Profile nikhil_dbt_project written to C:\Users\nikhi\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:47:03.291920 [debug] [MainThread]: Command `dbt init` succeeded at 13:47:03.291920 after 241.39 seconds
+[0m13:47:03.291920 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ACF9BF65A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ACF93A05F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ACFB09CD70>]}
+[0m13:47:03.291920 [debug] [MainThread]: Flushing usage events
+[0m13:47:04.418125 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:47:16.097640 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DF7BBEEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DF762F380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DF50A2270>]}
+
+
+============================== 13:47:16.097640 | 9e593777-c7a3-40eb-82c5-1a83bcb9245f ==============================
+[0m13:47:16.097640 [info ] [MainThread]: Running with dbt=1.11.8
+[0m13:47:16.097640 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\nikhi\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:47:16.154890 [info ] [MainThread]: dbt version: 1.11.8
+[0m13:47:16.154890 [info ] [MainThread]: python version: 3.12.9
+[0m13:47:16.154890 [info ] [MainThread]: python path: C:\Users\nikhi\Desktop\dbt\.venv\Scripts\python.exe
+[0m13:47:16.154890 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m13:47:17.008047 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m13:47:17.008047 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m13:47:17.008047 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m13:47:17.824687 [info ] [MainThread]: Using profiles dir at C:\Users\nikhi\.dbt
+[0m13:47:17.824687 [info ] [MainThread]: Using profiles.yml file at C:\Users\nikhi\.dbt\profiles.yml
+[0m13:47:17.824687 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\nikhi\Desktop\dbt\dbt_project.yml
+[0m13:47:17.824687 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:47:17.824687 [debug] [MainThread]: Command `dbt debug` failed at 13:47:17.824687 after 1.91 seconds
+[0m13:47:17.840440 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DF7C79490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DFF29E240>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028DFF1F15E0>]}
+[0m13:47:17.840440 [debug] [MainThread]: Flushing usage events
+[0m13:47:18.939636 [debug] [MainThread]: An error was encountered while trying to flush usage events
