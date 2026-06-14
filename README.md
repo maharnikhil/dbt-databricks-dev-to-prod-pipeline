@@ -168,3 +168,19 @@ The dbt project contains layered models, tests, snapshots, seeds, and reusable m
 ---
 
 Developed using **dbt** and **Databricks** to demonstrate modern Analytics Engineering and Data Engineering.
+
+## Author
+
+**Nikhil Singh Mahar**
+
+GitHub: `https://github.com/maharnikhil`
+
+LinkedIn: https://www.linkedin.com/in/nikhilsinghmahar/
+
+Mail: nikhilsinghmahar1234@gmail.com
+
+---
+
+## Project Status
+
+-- Completed --
